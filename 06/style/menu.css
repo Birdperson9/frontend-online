@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f5f5;
+}
+
+.container {
+  width: 360px;
+  margin: 100px auto;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 56px 20px 91px 20px;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 26px 0;
+}
+
+input {
+  width: 316px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  padding-left: 15px;
+}
+
+.menu-items {
+  padding: 0 4px;
+}
+
+.position-img {
+  width: 74px;
+  height: 74px;
+  border-radius: 12px;
+  background-color: #efefef;
+  margin-top: 29px;
+  padding: 18px;
+}
+
+.position-title {
+  color: #c4c4c4;
+  text-align: center;
+}
+
+.menu-position {
+  display: inline-block;
+  border: none;
+  margin-right: 24px;
+}
+
+.position-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.menu-position:hover .position-img {
+  background-color: #eae2b7;
+}
+
+.menu-position:hover .position-title {
+  color: black;
+}
+
+.menu-burger {
+  width: 100%;
+}
+
+.menu-position-burger:hover .burger-img {
+  background-color: #eae2b7;
+}
+
+.menu-position-burger:hover .burger-text h4 {
+  color: black;
+}
+
+.menu-position-burger:hover .burger-text p {
+  color: rgb(214, 40, 40);
+}
+
+.menu-position-burger:hover {
+  box-shadow: 0px 0px 4px 0px black;
+}
+
+.menu-position-burger {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  margin-bottom: 12px;
+  height: 88px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #e5e5e5;
+}
+
+.burger-text {
+  margin-left: 10px;
+}
+
+.burger-text h4 {
+  color: #c4c4c4;
+  margin: 0 0 8px 0;
+}
+
+p {
+  color: #c4c4c4;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}

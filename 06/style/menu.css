@@ -78,10 +78,6 @@ input {
   color: black;
 }
 
-.menu-burger {
-  width: 100%;
-}
-
 .menu-position-burger:hover .burger-img {
   background-color: #eae2b7;
 }

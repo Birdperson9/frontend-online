@@ -62,12 +62,13 @@ nav a:last-child {
 nav a::after {
   content: '';
   position: absolute;
-  bottom: -16px;
+  display: none;
   width: 7px;
   height: 7px;
+  margin: 0 50%;
+  bottom: -16px;
   border-radius: 100%;
   background-color: #f2994a;
-  display: none;
 }
 
 nav a.active::after,
@@ -185,6 +186,12 @@ nav a:hover::after {
   border: none;
   border-radius: 100%;
   background-color: #3f9ab7;
+}
+
+.video button img {
+  display: block;
+  width: 24px;
+  margin-left: 7px;
 }
 
 .video button:hover {

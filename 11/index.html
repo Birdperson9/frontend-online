@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>HW11 Flexbox</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/Room.us.png" alt="Room us company logo" />
+        </div>
+        <nav>
+          <a class="active" href="#">Home</a>
+          <a href="#">Amenities</a>
+          <a href="#">Contact Us</a>
+        </nav>
+        <form class="search-block">
+          <input type="search" placeholder="Search..." name="search" id="searchInput" />
+          <button>
+            <img src="assets/search.png" alt="search icon" />
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+        <div class="image-block">
+          <img src="assets/interior.png" alt="interior picture" />
+        </div>
+        <div class="text-container">
+          <div class="text-block">
+            <h2>Work Space</h2>
+            <h1>Modern Design work space</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus
+              sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus
+              dolor purus non enim
+            </p>
+          </div>
+          <div class="social">
+            <div class="video">
+              <button>
+                <img src="assets/play-icon.png" alt="play button" />
+              </button>
+              <span> Watch Video </span>
+            </div>
+            <div class="social-link">
+              <a href="#">
+                <img
+                  class="social-link-img"
+                  src="assets/twitter.png"
+                  alt="twitter link image"
+                />
+                <img
+                  class="social-link-img-hover"
+                  src="assets/twitter-hover.png"
+                  alt="twitter hovered link image"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="social-link-img"
+                  src="assets/instagram.png"
+                  alt="instagram link image"
+                />
+                <img
+                  class="social-link-img-hover"
+                  src="assets/instagram-hover.png"
+                  alt="instagram hovered link image"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="social-link-img"
+                  src="assets/facebook.png"
+                  alt="facebook link image"
+                />
+                <img
+                  class="social-link-img-hover"
+                  src="assets/facebook-hover.png"
+                  alt="facebook hovered link image"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="client">
+      <div class="client-image">
+        <img src="assets/client1.png" alt="client 1 image" />
+      </div>
+      <div class="client-image">
+        <img src="assets/client2.png" alt="client 2 image" />
+      </div>
+      <div class="client-image">
+        <img src="assets/client3.png" alt="client 3 image" />
+      </div>
+      <span class="client-info">
+        <strong> 235+ </strong>
+        <span> Client </span>
+      </span>
+    </footer>
+  </body>
+</html>

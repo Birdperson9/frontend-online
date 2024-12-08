@@ -7,6 +7,7 @@
 body {
   background-image: url(../assets/NEtflix-Home.png);
   background-position: top center;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
@@ -229,8 +230,11 @@ button > * {
 
 .btn-forward,
 .btn-backward {
+  width: 41px;
+  height: 41px;
   background-color: transparent;
-  border: none;
+  border: 1.5px solid #ffffff;
+  border-radius: 50%;
 }
 
 .btn-forward i,
@@ -238,9 +242,14 @@ button > * {
   color: #ffffff;
 }
 
-.btn-forward i:hover,
-.btn-backward i:hover {
+.btn-forward:hover i,
+.btn-backward:hover i {
   color: #a7a6a6;
+}
+
+.btn-forward:hover,
+.btn-backward:hover {
+  border: 2px solid #a7a6a6;
 }
 
 .poster {

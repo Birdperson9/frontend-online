@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>HW17.1 Shoppy @media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="mobile menu"><i class="fa-solid fa-bars fa-2x"></i></div>
+      <nav class="desktop header-nav">
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Kids</a>
+        <a href="#">Accessories</a>
+        <a href="#">Sales</a>
+      </nav>
+      <div class="logo"><span>Shoppy</span></div>
+      <div class="user-tools">
+        <div class="search"><i class="fa-solid fa-magnifying-glass fa-2x"></i></div>
+        <div class="cart"><img src="./assets/Bag.svg" alt="cart" /></div>
+      </div>
+    </header>
+
+    <section class="section-one">
+      <img class="left-shoe" src="./assets/shoe.png" alt="shoe image" />
+      <img class="right-shoe" src="./assets/shoe.png" alt="shoe image" />
+      <h1>Build for flight</h1>
+      <div class="text-main">
+        <p>Introducing product name.</p>
+        <p>Our lighest shoe ever.</p>
+      </div>
+      <button class="shop-now-btn">SHOP NOW</button>
+    </section>
+
+    <section class="collection">
+      <a href="#" class="women-collection">
+        <h4>Women</h4>
+        <p>Shop now</p>
+      </a>
+      <a href="#" class="men-collection">
+        <h4>Men</h4>
+        <p>Shop now</p>
+      </a>
+    </section>
+
+    <section class="carousel">
+      <div class="category new-releases">
+        <h4>New Releases</h4>
+        <ul class="cards-container">
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 17.png" alt="product name 1" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 19.png" alt="product name 2" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 20.png" alt="product name 3" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 21.png" alt="product name 4" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 22.png" alt="product name 5" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="category top-kicks">
+        <h4>Top Kicks</h4>
+        <ul class="cards-container">
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 23.png" alt="product name 6" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 25.png" alt="product name 7" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 24.png" alt="product name 8" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 26.png" alt="product name 9" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#">
+              <img src="./assets/Rectangle 27.png" alt="product name 10" />
+              <h6>Product name</h6>
+              <p>$299 USD</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="never-miss">
+      <h2>Never miss a drop.</h2>
+      <p>Receive updates about our new products and promotion.</p>
+      <div class="center">
+        <button class="join-btn">JOIN MAILING LIST</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="navigation">
+        <div class="links">
+          <nav>
+            <h5>MY ACCOUNT</h5>
+            <a href="#">Sign In</a>
+            <a href="#">Register</a>
+            <a href="#">Order Status</a>
+          </nav>
+          <nav>
+            <h5>HELP</h5>
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">Sizing</a>
+          </nav>
+          <nav>
+            <h5>ABOUT</h5>
+            <a href="#">Our Story</a>
+            <a href="#">Media</a>
+            <a href="#">Sustainability</a>
+          </nav>
+          <nav>
+            <h5>LEGAL STUFF</h5>
+            <a href="#">Terms of use</a>
+            <a href="#">Terms of sales</a>
+            <a href="#">Privacy policy</a>
+          </nav>
+        </div>
+        <div class="social-media">
+          <h5>FOLLOW US</h5>
+          <div class="social-media-links">
+            <a href="#"><img src="./assets/FB.png" alt="Facebook" /></a>
+            <a href="#"> <img src="./assets/Insta.png" alt="Instagram" /> </a>
+            <a href="#"><img src="./assets/Twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="./assets/Linkedin.png" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>2020 Shoppy Inc. All Right Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,260 @@
+@import url(reset.css);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  color: #7a7a7a;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 7.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  color: #776677;
+  text-decoration: none;
+}
+
+input {
+  background: none;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.logo {
+  font-family: 'Open Sans', serif;
+  color: #bc436a;
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+.user-menu {
+  margin-right: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.user-menu:nth-child(1) a {
+  color: #bc436a;
+}
+
+.user-menu:last-child {
+  margin-right: 0;
+  width: 6.4rem;
+  height: 2.4rem;
+  margin-right: 0;
+  border-radius: 0.25rem;
+  background-color: #386e41;
+}
+
+.user-menu:last-child a {
+  color: #ffffff;
+}
+
+.square {
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  left: -2.19rem;
+  top: 32.56rem;
+  border: 0.63rem solid #386e41;
+}
+
+.main-content {
+  max-width: 50%;
+  padding: 9.37rem 4.81rem 2rem 0;
+}
+
+.main-content h1 {
+  margin-bottom: 1.44rem;
+  color: #333333;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 3rem;
+}
+
+.main-content h1 strong {
+  color: #bc436a;
+}
+
+.image {
+  position: absolute;
+  z-index: -1;
+  width: 60%;
+  height: 80%;
+  right: -6.5rem;
+  top: 10%;
+  border-radius: 50%;
+  background: url(../assets/person.png) no-repeat center;
+  background-position: -5rem 0rem;
+  background-size: cover;
+}
+
+.take-you {
+  padding-top: 14.3rem;
+  color: #767676;
+}
+
+.take-you i {
+  margin-left: 1.5rem;
+  color: #767676;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 75rem;
+  height: 6.3rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background-color: #386e41;
+}
+
+input {
+  width: 16rem;
+  padding: 0.25rem 0 0.75rem;
+  border-bottom: 0.06rem solid rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+form i {
+  color: #ffffff;
+  margin-left: -1.75rem;
+}
+
+.search-place {
+  max-width: 9rem;
+  height: 2.6rem;
+  padding: 0.5rem 1.3rem;
+  border-radius: 0.25rem;
+  box-shadow: 0rem 0rem 1.25rem 0rem rgba(0, 0, 0, 0.11);
+  color: #ffffff;
+  background-color: #bc436a;
+}
+
+footer {
+  margin-top: 4.5rem;
+  text-align: center;
+}
+
+footer h4,
+footer i {
+  color: #767676;
+}
+
+footer i {
+  margin-top: 0.9rem;
+  margin-bottom: 3.4rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5rem;
+  }
+
+  .user-menu {
+    margin-right: 1rem;
+  }
+
+  .image {
+    width: 90%;
+    height: 50%;
+    top: 12%;
+    right: -16.5rem;
+    background-size: 80%;
+  }
+
+  .square {
+    width: 4.5rem;
+    height: 4.5rem;
+    left: -2.19rem;
+    top: 46.56rem;
+  }
+
+  .take-you {
+    padding-top: 5.5rem;
+  }
+
+  input {
+    width: 7.5rem;
+  }
+
+  footer {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  header {
+    flex-direction: column;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  .user-menu {
+    margin-right: 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .main-content {
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main-content h1 {
+    font-size: 2rem;
+  }
+
+  .square {
+    width: 3.5rem;
+    height: 3.5rem;
+    left: -1.19rem;
+    top: 43.56rem;
+  }
+
+  form {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  form div {
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 12rem;
+  }
+}

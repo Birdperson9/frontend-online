@@ -73,11 +73,11 @@ header nav {
 }
 
 .square {
-  position: absolute;
+  position: fixed;
+  top: 50%;
+  left: -60px;
   width: 7.5rem;
   height: 7.5rem;
-  left: -2.19rem;
-  top: 32.56rem;
   border: 0.63rem solid #386e41;
 }
 
@@ -99,16 +99,16 @@ header nav {
 }
 
 .image {
-  position: absolute;
-  z-index: -1;
-  width: 60%;
-  height: 80%;
-  right: -6.5rem;
-  top: 10%;
+  width: 50.75rem;
+  height: 50.75rem;
   border-radius: 50%;
-  background: url(../assets/person.png) no-repeat center;
-  background-position: -5rem 0rem;
+  background-image: url(../assets/person.png);
+  background-repeat: no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 10rem;
+  right: -3.75rem;
+  z-index: -1;
 }
 
 .take-you {
@@ -119,6 +119,7 @@ header nav {
 .take-you i {
   margin-left: 1.5rem;
   color: #767676;
+  cursor: pointer;
 }
 
 form {
@@ -146,16 +147,22 @@ input::placeholder {
 form i {
   color: #ffffff;
   margin-left: -1.75rem;
+  cursor: pointer;
 }
 
 .search-place {
   max-width: 9rem;
   height: 2.6rem;
   padding: 0.5rem 1.3rem;
+  border: none;
   border-radius: 0.25rem;
-  box-shadow: 0rem 0rem 1.25rem 0rem rgba(0, 0, 0, 0.11);
   color: #ffffff;
   background-color: #bc436a;
+}
+
+.search-place:hover {
+  cursor: pointer;
+  background-color: #a23659;
 }
 
 footer {
@@ -166,6 +173,7 @@ footer {
 footer h4,
 footer i {
   color: #767676;
+  cursor: pointer;
 }
 
 footer i {
@@ -182,19 +190,21 @@ footer i {
     margin-right: 1rem;
   }
 
+  .main-content {
+    padding-top: 4.8rem;
+  }
+
   .image {
-    width: 90%;
-    height: 50%;
-    top: 12%;
-    right: -16.5rem;
-    background-size: 80%;
+    width: 45.75rem;
+    height: 45.75rem;
+    top: 14rem;
+    right: -18.75rem;
   }
 
   .square {
     width: 4.5rem;
     height: 4.5rem;
-    left: -2.19rem;
-    top: 46.56rem;
+    left: -32px;
   }
 
   .take-you {
@@ -240,8 +250,6 @@ footer i {
   .square {
     width: 3.5rem;
     height: 3.5rem;
-    left: -1.19rem;
-    top: 43.56rem;
   }
 
   form {

@@ -21,6 +21,11 @@ $green-color: #f6fdee;
     font-size: 2rem;
     line-height: 2.3rem;
   }
+
+  @media (max-width: 425px) {
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }
 
 * {
@@ -209,6 +214,32 @@ header {
       }
     }
   }
+
+  @media (max-width: 425px) {
+    .navigation {
+      padding: 25px 50px;
+
+      a {
+        font-size: 2rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    .header-text {
+      padding: 50px;
+
+      h1 {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+      }
+
+      p {
+        padding-bottom: 20px;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+      }
+    }
+  }
 }
 
 /* Section our-story */
@@ -356,6 +387,50 @@ header {
       }
     }
   }
+
+  @media (max-width: 425px) {
+    padding: 50px;
+    background-image: url(../assets/vintage2\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+
+    h2 {
+      color: $white-color;
+
+      span {
+        color: $orange-color;
+      }
+    }
+
+    .story-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+
+      div {
+        display: none;
+      }
+
+      .our-story-text {
+        display: block;
+
+        h4,
+        p {
+          text-align: center;
+        }
+
+        p {
+          color: $white-color;
+        }
+      }
+    }
+
+    a {
+      color: $white-color;
+    }
+  }
 }
 
 /* Section our-collection */
@@ -475,6 +550,24 @@ header {
     z-index: -1;
     background-color: $orange-color;
   }
+
+  @media (max-width: 425px) {
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    .cities-container {
+      flex-direction: column;
+
+      div {
+        width: 100%;
+      }
+    }
+  }
 }
 
 /* Section vintage-hour */
@@ -502,6 +595,10 @@ header {
     img {
       width: 500px;
       margin: 0 100px;
+
+      @media (max-width: 1024px) {
+        width: 100%;
+      }
     }
 
     .vintage-text {
@@ -569,6 +666,7 @@ header {
   .purpose-container {
     position: relative;
     display: flex;
+    justify-content: center;
     gap: 20px;
     z-index: 1;
 
@@ -578,11 +676,12 @@ header {
       grid-template-rows: 330px 220px 190px;
       gap: 20px;
 
-      img {
-        display: block;
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
+      div {
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
 
         &:nth-child(1) {
           grid-area: 1/1/2/3;
@@ -612,7 +711,7 @@ header {
       grid-template-rows: 410px 175px 155px;
       gap: 20px;
 
-      img {
+      div {
         display: block;
         object-fit: cover;
         width: 100%;
@@ -672,10 +771,33 @@ header {
       flex-direction: column;
     }
   }
+
+  @media (max-width: 425px) {
+    .purpose-container {
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        display: none;
+      }
+
+      .grid-container-one,
+      .grid-container-two {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        div img {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
-/* Section achivements-awards */
-.achivements-awards {
+/* Section achievements-awards */
+.achievements-awards {
   // height: 1040px;
   padding: 120px 130px 120px 165px;
   background-color: $green-color;
@@ -701,17 +823,16 @@ header {
 
     @media (max-width: 1024px) {
       grid-template-columns: 30% auto 30%;
-      column-gap: 20px;
     }
 
-    img {
-      display: block;
-      object-fit: cover;
-      width: 100%;
-      // height: 100%;
+    div {
+      img {
+        object-fit: cover;
+        width: 100%;
 
-      @media (max-width: 1440px) {
-        object-fit: fill;
+        @media (max-width: 1440px) {
+          object-fit: fill;
+        }
       }
 
       &:nth-child(1) {
@@ -767,6 +888,14 @@ header {
       &:nth-child(5) {
         grid-area: 2/3/5/4;
       }
+    }
+  }
+
+  @media (max-width: 425px) {
+    .awards-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
     }
   }
 }
@@ -945,6 +1074,19 @@ footer {
       flex-direction: column;
       gap: 20px;
       align-items: flex-end;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px;
+    }
+
+    .copyright {
+      padding-top: 20px;
+      line-height: 1.5;
     }
   }
 }

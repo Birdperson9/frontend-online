@@ -1,0 +1,12 @@
+:root {
+  --bg-color-white: white;
+  --bg-color-red: red;
+  --bg-color-green: green;
+  --bg-color-blue: blue;
+  --bg-color-yellow: yellow;
+  --bg-color-coral: coral;
+}
+
+body {
+  background-color: var(--bg-color-white);
+}

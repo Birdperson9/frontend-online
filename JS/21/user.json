@@ -1,0 +1,8 @@
+{
+  "name": "John",
+  "surname": "Doe",
+  "age": 35,
+  "email": "example@gmail.com",
+  "isAdmin": false,
+  "skills": ["html", "css", "JS"]
+}

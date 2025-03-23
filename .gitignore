@@ -1,0 +1,22 @@
+#Налаштування gitignore
+
+node_modules/
+
+#Окремі файли
+secret.txt
+confing.env
+
+#Iгнор всіх файлів 
+*.log
+*.temp
+*.zip
+*.rar
+
+#Ігнор файлів редакторів
+.vscode/
+
+#Ігонорування папок
+test/
+
+#DS store ігнор
+.DS_Store

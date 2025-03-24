@@ -1,0 +1,11 @@
+Приклади розглянуті на уроці: https://github.com/slastonm/js-online/tree/main/27  
+
+Приклади тасків з різними плагінами gulp: https://github.com/slastonm/gulp-project 
+
+Сайти з уроку: https://webpack.js.org/ 
+
+Домашня робота.
+
+Встановіть плагін до gulp наприклад для мініфікації стилів і додайте в створений на уроці таск чи створіть свій влассний
+
+https://www.npmjs.com/package/gulp-clean-css 

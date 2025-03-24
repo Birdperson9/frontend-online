@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+p {
+  font-size: 20px;
+}
+.test {
+  margin: 0;
+  font-size: 40px;
+}

@@ -1,0 +1,23 @@
+Vs Code
+https://code.visualstudio.com/ 
+
+Node.js
+https://nodejs.org/en/download 
+
+Vite 
+
+https://vitejs.dev/ 
+
+Браузер екстенен
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi 
+
+Netlify
+https://www.netlify.com/ 
+React
+https://react.dev/
+
+Домашня робота:
+Створіть базовий шаблон за допомогою Vite Виконавши команду   npm create vite@latest
+
+Приклади з уроку в репозиторії
+https://github.com/slastonm/deploy-react 

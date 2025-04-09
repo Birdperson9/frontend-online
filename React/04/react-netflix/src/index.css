@@ -1,0 +1,35 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('@fortawesome/fontawesome-free/css/all.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/NEtflix-Home.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #a7a6a6;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  padding: 42px 0;
+  margin-bottom: 120px;
+}
+
+.container {
+  margin: 0 33px 0 40px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}

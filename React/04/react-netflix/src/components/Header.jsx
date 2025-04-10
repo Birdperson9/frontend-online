@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import NetflixLogo from '../assets/netflix-logo-png-2562-1.png';
 import UserIcon from '../assets/Ellipse-2.png';
 
@@ -29,6 +30,15 @@ const Header = (props) => {
       </div>
     </header>
   );
+};
+
+Header.propTypes = {
+  isLogin: PropTypes.bool.isRequired,
+  date: PropTypes.string,
+};
+Header.defaultProps = {
+  isLogin: false,
+  date: 'N/A',
 };
 
 export default Header;

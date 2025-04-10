@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Rating = (props) => {
   if (props.ratingValue === 3) {
@@ -22,6 +23,13 @@ const Rating = (props) => {
       </div>
     );
   }
+};
+
+Rating.propTypes = {
+  ratingValue: PropTypes.number,
+};
+Rating.defaultProps = {
+  ratingValue: 1,
 };
 
 export default Rating;

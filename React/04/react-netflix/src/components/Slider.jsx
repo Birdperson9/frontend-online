@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Movie1 from '../assets/poster-1.png';
 import Movie2 from '../assets/poster-2.png';
 import Movie3 from '../assets/poster-3.png';

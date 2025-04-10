@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Description = (props) => {
   return (
@@ -18,6 +19,21 @@ const Description = (props) => {
       </div>
     </div>
   );
+};
+
+Description.propTypes = {
+  title: PropTypes.string,
+  year: PropTypes.number,
+  director: PropTypes.string,
+  seasons: PropTypes.string,
+  description: PropTypes.string,
+};
+Description.defaultProps = {
+  title: 'N/A',
+  year: 0,
+  director: 'N/A',
+  seasons: 'N/A',
+  description: 'N/A',
 };
 
 export default Description;

@@ -60,7 +60,7 @@ function App() {
             secret government exploits. As they search for answers, the children unravel a
             series of extraordinary mysteries.'
         ></Description>
-        <Rating ratingValue={3}></Rating>
+        <Rating ratingValue={4}></Rating>
         <Buttons></Buttons>
       </div>
       <Slider></Slider>

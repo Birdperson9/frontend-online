@@ -156,12 +156,12 @@ p {
   margin-bottom: 40px;
 }
 
-.rating i {
-  color: #ffffff;
+.star-filled {
+  color: #ffea2b;
 }
 
-.rating i:nth-child(-n + 3) {
-  color: #ffea2b;
+.star-empty {
+  color: #ffffff;
 }
 
 button > * {

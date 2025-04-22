@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Card from './Card';
 
 const ProductList = () => {
   const [productsList, setProductsList] = useState([]);
@@ -105,33 +106,16 @@ const ProductList = () => {
       <div className='container'>
         <div className='row'>
           {productsList.map((item, index) => (
-            <div className='col-md-4 mb-4 d-flex' key={index}>
-              <div className='card w-100 h-100 d-flex flex-column'>
-                <div className='card-header'>
-                  <h4 className='my-0 font-weight-normal'>{item.productTitle}</h4>
-                </div>
-                <div className='card-body d-flex flex-column'>
-                  <div>
-                    <h1 className='card-title pricing-card-title'>
-                      ${item.productPrice} <small className='text-muted'>/ mo</small>
-                    </h1>
-                    <ul className='list-unstyled mt-3 mb-4'>
-                      <li>{item.productUsers} users included</li>
-                      <li>{item.storageValue} GB of storage</li>
-                      <li>Email support</li>
-                      {item.helpCenter && <li>Help center access</li>}
-                    </ul>
-                  </div>
-                  <button
-                    type='button'
-                    className='btn btn-danger mt-auto'
-                    onClick={() => removeItem(index)}
-                  >
-                    Delete
-                  </button>
-                </div>
-              </div>
-            </div>
+            <Card
+              key={index}
+              index={index}
+              productTitle={item.productTitle}
+              productPrice={item.productPrice}
+              productUsers={item.productUsers}
+              storageValue={item.storageValue}
+              helpCenter={item.helpCenter}
+              removeItem={removeItem}
+            ></Card>
           ))}
         </div>
       </div>

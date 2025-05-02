@@ -1,0 +1,9 @@
+Документація по запитам для реакт і приклад fetch
+
+https://react.dev/reference/react/useEffect#fetching-data-with-effects
+
+Домашня робота:
+
+Зробити компонент який робить часткове завантаження данних з ресурсу  (/comments чи /posts) https://jsonplaceholder.typicode.com/ 
+Приклади з уроку в репозиторії 
+https://github.com/slastonm/deploy-react 

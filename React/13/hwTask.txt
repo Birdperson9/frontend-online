@@ -1,0 +1,8 @@
+Домашня робота:
+- підключіть іконки до вашої сторінки
+https://docs.fontawesome.com/web/use-with/react/
+- підключіть і налаштуйте слайдер у вас на сторінці
+https://swiperjs.com/
+Приклади з уроку в репозиторії
+
+https://github.com/slastonm/deploy-react 

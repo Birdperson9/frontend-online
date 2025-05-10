@@ -47,15 +47,6 @@
   color: #ffffff;
 }
 
-.right-side i {
-  margin-right: 48px;
-  color: #ffffff;
-}
-
-.right-side i:hover {
-  color: #a7a6a6;
-}
-
 .search-container {
   position: relative;
   display: flex;
@@ -65,6 +56,12 @@
 
 .search-icon {
   cursor: pointer;
+  margin-right: 48px;
+  color: #ffffff;
+}
+
+.search-icon:hover {
+  color: #a7a6a6;
 }
 
 .search-input-wrapper {
@@ -179,6 +176,10 @@ p {
   margin-bottom: 40px;
 }
 
+.star {
+  margin-right: 1rem;
+}
+
 .star-filled {
   color: #ffea2b;
 }
@@ -253,30 +254,32 @@ button > * {
 
 .btn-forward,
 .btn-backward {
-  width: 41px;
-  height: 41px;
-  background-color: transparent;
   border: 1.5px solid #ffffff;
   border-radius: 50%;
+  width: 41px;
+  height: 41px;
+  background: transparent;
+  transition: border-color 0.2s, color 0.2s;
 }
 
 .btn-forward {
   margin-left: 20px;
 }
 
-.btn-forward i,
-.btn-backward i {
-  color: #ffffff;
-}
-
-.btn-forward:hover i,
-.btn-backward:hover i {
-  color: #a7a6a6;
-}
-
 .btn-forward:hover,
 .btn-backward:hover {
   border: 2px solid #a7a6a6;
+}
+
+.forward-icon,
+.backward-icon {
+  color: #ffffff;
+  transition: color 0.2s;
+}
+
+.btn-forward:hover .forward-icon,
+.btn-backward:hover .backward-icon {
+  color: #a7a6a6;
 }
 
 .poster {

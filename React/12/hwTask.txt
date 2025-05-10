@@ -1,0 +1,13 @@
+Документація і додаткові приклади
+https://reactrouter.com/en/main/start/tutorial
+
+Домашня робота:
+
+- встановіть npm install react-router-dom
+
+- створіть сторінки about, price, contact 
+
+- створіть меню навігації яке буде робити перехід по сторінках
+Приклади з уроку в репозиторії
+
+https://github.com/slastonm/deploy-react 
